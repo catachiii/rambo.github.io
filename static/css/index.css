@@ -2,6 +2,38 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.institution-logos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* align bottoms */
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+.logo-eth {
+  height: 40px;         /* Adjusted height */
+  margin-bottom: 4px;   /* Nudge up slightly if needed */
+}
+
+.logo-cmu {
+  height: 42px;         /* Slightly smaller to match ETH visually */
+  margin-bottom: 0px;   /* Adjust if needed */
+}
+
+.lab-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.lab-logo {
+  height: 100px;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+}
 
 .footer .icon-link {
     font-size: 25px;
