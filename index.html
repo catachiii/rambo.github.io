@@ -86,7 +86,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://youtu.be/RHqMhl10Vo0"
+                <a href="https://youtu.be/VdZxhLNG6wQ"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -113,11 +113,37 @@
   </div>
 </section>
 
-<div class="video-container mt-5 mb-5">
-  <video controls>
-    <source src="./static/videos/rambo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<style>
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+  width: 95%;
+  height: 95%;
+  border: 0;
+}
+</style>
+
+<div class="video-wrapper">
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/VdZxhLNG6wQ?si=cJtjL4OTLlSJQiMW"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
 <div class="abstract-box mt-5">
