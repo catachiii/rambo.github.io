@@ -247,8 +247,23 @@ Overview of the RAMBO architecture. It consists of three core components: (1) a 
 Detailed architecture of the RAMBO control framework. The desired base velocity and EE positions are used to generate a kinematic motion reference, which is sent to the policy and whole-body control module. The whole-body control module also takes the desired EE force to compute the feedforward joint torques. The learned policy provides corrective feedback to the base acceleration and joint position targets, enabling robust control under modeling errors and dynamic disturbances. </p>
 
   </div>
-
 </div>
+
+<section class="section" id="BibTeX">
+  <div class="container content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code id="bib"></code></pre>
+  </div>
+</section>
+<script>
+  const bibtex = `@article{cheng2025rambo,
+  title={RAMBO: RL-augmented Model-based Optimal Control for Whole-body Loco-manipulation},
+  author={Cheng, Jin and Kang, Dongho and Fadini, Gabriele and Shi, Guanya and Coros, Stelian},
+  journal={arXiv preprint arXiv:2504.06662},
+  year={2025}
+}`;
+  document.getElementById("bib").innerText = bibtex;
+</script>
 
 <footer class="footer">
   <div class="container">
